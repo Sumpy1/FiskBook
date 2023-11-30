@@ -1,0 +1,136 @@
+* {
+  font-family: Avenir;
+}
+body {
+  margin: 0px;
+  /* background-image: "/Users/sumiran/Chatapp/src/assets/5.png"; */
+  background-image: image-set("/Users/sumiran/Chatapp/src/assets/5.png");
+}
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000076 !important;
+  
+}
+.card {
+  width: 70%; 
+  max-width: 500px; 
+  margin: 0 auto; 
+  position: relative;
+  text-align: center;
+  padding: 8vw 2rem; 
+  box-sizing: border-box; 
+  font-family: 'Times New Roman', Times, serif;
+}
+.title {
+  
+    padding-top: 32px;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+  
+    /* Add the following styles for font and size */
+    font-family:sans-serif; /* Specify the desired font */
+    font-size: 60px; /* Specify the desired font size */
+  }
+
+  .create-account {
+  
+    padding-top: 32px;
+    font-size: 22px;
+    color: orange;
+    font-weight: 700;
+  
+    /* Add the following styles for font and size */
+    font-family:sans-serif; /* Specify the desired font */
+    font-size: 20px; /* Specify the desired font size */
+  }
+input {
+  width: calc(100% - 16px);
+  margin-top: 12px;
+  padding: 8px;
+  background-color: #e6f7ff;
+  outline: none;
+  border: 1px solid #e6f7ff;
+}
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+}
+
+
+.card{
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background-color: #131324;
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    img {
+      height: 5rem;
+    }
+    h1 {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #00000076;
+    border-radius: 2rem;
+    padding: 5rem;
+  }
+  input {
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.1rem solid #f8c300;
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    &:focus {
+      border: 0.1rem solid #997af0;
+      outline: none;
+    }
+  }
+  button {
+    background-color: #4e0eff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #4e0eff;
+    }
+  }
+  span {
+    color: white;
+    text-transform: uppercase;
+    a {
+      color: #f8c300;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+
+  
+
+
+}
